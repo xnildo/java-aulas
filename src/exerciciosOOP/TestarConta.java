@@ -43,7 +43,7 @@ public class TestarConta {
 	    System.out.printf("\nTipo de Conta: %s", conta1.getTipo());
 	    System.out.printf("\nSaldo Atual: R$%.2f ", conta1.VerSaldo());
 	    
-
+	    scan.close();
 	}
 
 }
