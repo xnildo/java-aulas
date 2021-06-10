@@ -9,6 +9,19 @@ public abstract class Animal implements InterfaceAnimal {
 	private String raca;
 	private String cor;
 	
+	public void emitirSom() {
+		
+	};
+	
+	public void correr() {
+		
+	};
+	
+	public void subir() {
+		
+	};
+	
+	
 	
 	public String getAnimal() {
 		return animal;

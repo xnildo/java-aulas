@@ -22,6 +22,7 @@ public class Principal {
 		dog1.emitirSom();
 		System.out.println("-----------------------------------------------------------");
 		dog1.correr();
+		dog1.subir();
 		System.out.println("-----------------------------------------------------------\n");
 		//CAVALO
 		Cavalo cavalo = new Cavalo();
@@ -42,6 +43,7 @@ public class Principal {
 		cavalo.emitirSom();
 		System.out.println("----------------------------------------------------------------");
 		cavalo.correr();
+		cavalo.subir();
 		System.out.println("----------------------------------------------------------------\n");
 		
 		//PREGUIÇA
@@ -63,6 +65,7 @@ public class Principal {
 		preguica.emitirSom();
 		System.out.println("-----------------------------------------------------------");
 		preguica.subir();
+		preguica.correr();
 		System.out.println("-----------------------------------------------------------");
 	}
 }
