@@ -1,6 +1,6 @@
 package br.com.generation.exerciciosHeranca.exec01;
 
-public class Animal {
+public abstract class Animal implements InterfaceAnimal {
 	private String animal;
 	private String tipo;
 	private String nome;
@@ -8,6 +8,7 @@ public class Animal {
 	private double peso;
 	private String raca;
 	private String cor;
+	
 	
 	public String getAnimal() {
 		return animal;
@@ -40,20 +41,7 @@ public class Animal {
 	public void setNome(String nome) {
 		this.nome = nome;
 	}
-
-	
-	public void emitirSom() {
 		
-	}
-	
-	public void correr() {
-		
-	}
-	
-	public void subir() {
-		
-	}
-	
 	public double getPeso() {
 		return peso;
 	}

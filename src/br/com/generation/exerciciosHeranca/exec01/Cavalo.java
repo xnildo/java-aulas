@@ -1,9 +1,7 @@
 package br.com.generation.exerciciosHeranca.exec01;
 
-public class Cavalo extends Animal{
-	
-	
-	
+public class Cavalo extends Animal implements InterfaceAnimal{
+			
 	public void correr() {
 		System.out.println("Cavalo correndo... ");
 	}
@@ -13,7 +11,7 @@ public class Cavalo extends Animal{
 	}
 	
 	public void subir() {
-		
+		System.out.println("Cavalo subindo na cerca... ");
 	}
 	
 	
