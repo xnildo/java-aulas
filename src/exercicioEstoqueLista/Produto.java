@@ -15,13 +15,13 @@ public class Produto {
 		this.preco = preco;
 	}
 	
-	
+
 	
 	@Override
 	public String toString() {
-		return "Produto [ ID Produto: " + idProduto + ", Categoria: "
-				+ categoria + ", Nome: " + nome + ", Preço: R$" + preco
-				+ "]";
+		return "| ID: "+idProduto+" | CATEGORIA: "+categoria+
+				" | NOME: "+nome+" | PREÇO R$: "+preco+" |";
+				
 	}
 
 
